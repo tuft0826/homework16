@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MagDesign</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header row">
+        <div class="col-3">
+          <form action="" class="search">
+            <img src="search.svg" alt="" class="searchicon" />
+            <input type="search" placeholder="Search..." class="searchinput" />
+          </form>
+        </div>
+        <div class="logo col-6">
+          <a href="#">MAGDESIGN</a>
+        </div>
+        <div class="social col-2">
+          <a href="#"><img src="twitter.svg" alt="" class="socialicon" /></a>
+          <a href="#"><img src="facebook.svg" alt="" class="socialicon" /></a>
+          <a href="#"><img src="instagram.svg" alt="" class="socialicon" /></a>
+        </div>
+        <div class="col-1">
+          <div>
+            <span onclick="openNav()">
+              <a href="#"><img src="list.svg" alt="" class="menu" /></a>
+            </span>
+          </div>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <a href="#" class="navlink home">Home</a>
+            <div class="rela">
+              <div>
+                <a href="#" class="navlink">Categories</a>
+              </div>
+              <div class="down">
+                <span onclick="openSubCat()">
+                  <a href="#"><img src="down.svg" alt="" /></a>
+                </span>
+              </div>
+              <div id="mySubCat" class="subcat">
+                <a href="#" class="catlink">Travel</a>
+                <a href="#" class="catlink">Food</a>
+                <a href="#" class="catlink">Technology</a>
+                <a href="#" class="catlink">Business</a>
+                <div class="rela">
+                  <div>
+                    <a href="#" class="catlink">Drop Down</a>
+                  </div>
+                  <div class="down">
+                    <span onclick="openDropDown()">
+                      <a href="#"><img src="down.svg" alt="" /></a>
+                    </span>
+                  </div>
+                  <div id="myDropDown" class="dropdown">
+                    <a href="#" class="ddlink">Sub Menu One</a>
+                    <a href="#" class="ddlink">Sub Menu Two</a>
+                    <a href="#" class="ddlink">Sub Menu Three</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="navlink">Travel</a>
+            <a href="#" class="navlink">food</a>
+            <a href="#" class="navlink">Technology</a>
+            <a href="#" class="navlink">Business</a>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="trending-section">
+          <div class="section-title">Trending</div>
+          <div class="trending-topic row mySlide slide-left">
+            <div class="trending-img col-4">
+              <img src="anhslide1.webp" alt="" width="100%" />
+            </div>
+            <div class="trending-content col-8">
+              <p class="mb-20">
+                <a href="#" class="mod-a">Business</a>,<a href="#" class="mod-a"
+                  >Travel</a
+                >
+                - July 2, 2020
+              </p>
+              <h2 class="mb-20">
+                <a href="#" class="topic-title">
+                  Your most unhappy customers are your greatest source of
+                  learning.</a
+                >
+              </h2>
+              <p class="mb-20">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.
+              </p>
+              <div class="tacgia">
+                <div class="anhnho">
+                  <img src="anhslide.webp" alt="" height="45" />
+                </div>
+                <div>
+                  <div class="name">
+                    <a href="#" class="mod-a">Sergy Campbell</a>
+                  </div>
+                  <div class="job">
+                    <a href="#" class="mod-b">CEO and founder</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trending-topic row mySlide slide-left">
+            <div class="trending-img col-4">
+              <img src="anhslide2.webp" alt="" width="100%" />
+            </div>
+            <div class="trending-content col-8">
+              <p class="mb-20">
+                <a href="#" class="mod-a">Business</a>,<a href="#" class="mod-a"
+                  >Travel</a
+                >
+                - July 2, 2020
+              </p>
+              <h2 class="mb-20">
+                <a href="#" class="topic-title">
+                  Your most unhappy customers are your greatest source of
+                  learning.</a
+                >
+              </h2>
+              <p class="mb-20">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.
+              </p>
+              <div class="tacgia">
+                <div class="anhnho">
+                  <img src="anhslide.webp" alt="" height="45" />
+                </div>
+                <div>
+                  <div class="name">
+                    <a href="#" class="mod-a">Sergy Campbell</a>
+                  </div>
+                  <div class="job">
+                    <a href="#" class="mod-b">CEO and founder</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trending-topic row mySlide slide-left">
+            <div class="trending-img col-4">
+              <img src="anhslide3.webp" alt="" width="100%" />
+            </div>
+            <div class="trending-content col-8">
+              <p class="mb-20">
+                <a href="#" class="mod-a">Business</a>,<a href="#" class="mod-a"
+                  >Travel</a
+                >
+                - July 2, 2020
+              </p>
+              <h2 class="mb-20">
+                <a href="#" class="topic-title">
+                  Your most unhappy customers are your greatest source of
+                  learning.</a
+                >
+              </h2>
+              <p class="mb-20">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.
+              </p>
+              <div class="tacgia">
+                <div class="anhnho">
+                  <img src="anhslide.webp" alt="" height="45" />
+                </div>
+                <div>
+                  <div class="name">
+                    <a href="#" class="mod-a">Sergy Campbell</a>
+                  </div>
+                  <div class="job">
+                    <a href="#" class="mod-b">CEO and founder</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trending-topic row mySlide slide-left">
+            <div class="trending-img col-4">
+              <img src="anhslide4.webp" alt="" width="100%" />
+            </div>
+            <div class="trending-content col-8">
+              <p class="mb-20">
+                <a href="#" class="mod-a">Business</a>,<a href="#" class="mod-a"
+                  >Travel</a
+                >
+                - July 2, 2020
+              </p>
+              <h2 class="mb-20">
+                <a href="#" class="topic-title">
+                  Your most unhappy customers are your greatest source of
+                  learning.</a
+                >
+              </h2>
+              <p class="mb-20">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.
+              </p>
+              <div class="tacgia">
+                <div class="anhnho">
+                  <img src="anhslide.webp" alt="" height="45" />
+                </div>
+                <div>
+                  <div class="name">
+                    <a href="#" class="mod-a">Sergy Campbell</a>
+                  </div>
+                  <div class="job">
+                    <a href="#" class="mod-b">CEO and founder</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="text-align: center" class="mb-50">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <div class="post-section row col-12 wrap">
+          <div class="post col-4">
+            <div class="post-img mb-20 col-4">
+              <img src="anhpost1.webp" alt="" width="100%" />
+            </div>
+            <div class="post-content">
+              <p class="mb-20">
+                <a href="#" class="mod-a">Business</a>,<a href="#" class="mod-a"
+                  >Travel</a
+                >
+                - July 2, 2020
+              </p>
+              <h2 class="mb-20">
+                <a href="#" class="post-title">
+                  Your most unhappy customers are your greatest source of
+                  learning.</a
+                >
+              </h2>
+              <p class="mb-20">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="tacgia">
+                <div class="anhnho">
+                  <img src="anhslide.webp" alt="" height="45" />
+                </div>
+                <div>
+                  <div class="name">
+                    <a href="#" class="mod-a">Sergy Campbell</a>
+                  </div>
+                  <div class="job">
+                    <a href="#" class="mod-b">CEO and founder</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="post col-4">
+            <div class="post-img mb-20">
+              <img src="anhpost2.webp" alt="" width="100%" />
+            </div>
+            <div class="post-content">
+              <p class="mb-20">
+                <a href="#" class="mod-a">Business</a>,<a href="#" class="mod-a"
+                  >Travel</a
+                >
+                - July 2, 2020
+              </p>
+              <h2 class="mb-20">
+                <a href="#" class="post-title">
+                  Your most unhappy customers are your greatest source of
+                  learning.</a
+                >
+              </h2>
+              <p class="mb-20">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="tacgia">
+                <div class="anhnho">
+                  <img src="anhslide.webp" alt="" height="45" />
+                </div>
+                <div>
+                  <div class="name">
+                    <a href="#" class="mod-a">Sergy Campbell</a>
+                  </div>
+                  <div class="job">
+                    <a href="#" class="mod-b">CEO and founder</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="post col-4">
+            <div class="post-img mb-20">
+              <img src="anhpost3.webp" alt="" width="100%" />
+            </div>
+            <div class="post-content">
+              <p class="mb-20">
+                <a href="#" class="mod-a">Business</a>,<a href="#" class="mod-a"
+                  >Travel</a
+                >
+                - July 2, 2020
+              </p>
+              <h2 class="mb-20">
+                <a href="#" class="post-title">
+                  Your most unhappy customers are your greatest source of
+                  learning.</a
+                >
+              </h2>
+              <p class="mb-20">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="tacgia">
+                <div class="anhnho">
+                  <img src="anhslide.webp" alt="" height="45" />
+                </div>
+                <div>
+                  <div class="name">
+                    <a href="#" class="mod-a">Sergy Campbell</a>
+                  </div>
+                  <div class="job">
+                    <a href="#" class="mod-b">CEO and founder</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="post col-4">
+            <div class="post-img mb-20">
+              <img src="anhpost4.webp" alt="" width="100%" />
+            </div>
+            <div class="post-content">
+              <p class="mb-20">
+                <a href="#" class="mod-a">Business</a>,<a href="#" class="mod-a"
+                  >Travel</a
+                >
+                - July 2, 2020
+              </p>
+              <h2 class="mb-20">
+                <a href="#" class="post-title">
+                  Your most unhappy customers are your greatest source of
+                  learning.</a
+                >
+              </h2>
+              <p class="mb-20">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="tacgia">
+                <div class="anhnho">
+                  <img src="anhslide.webp" alt="" height="45" />
+                </div>
+                <div>
+                  <div class="name">
+                    <a href="#" class="mod-a">Sergy Campbell</a>
+                  </div>
+                  <div class="job">
+                    <a href="#" class="mod-b">CEO and founder</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="post col-4">
+            <div class="post-img mb-20">
+              <img src="anhpost5.webp" alt="" width="100%" />
+            </div>
+            <div class="post-content">
+              <p class="mb-20">
+                <a href="#" class="mod-a">Business</a>,<a href="#" class="mod-a"
+                  >Travel</a
+                >
+                - July 2, 2020
+              </p>
+              <h2 class="mb-20">
+                <a href="#" class="post-title">
+                  Your most unhappy customers are your greatest source of
+                  learning.</a
+                >
+              </h2>
+              <p class="mb-20">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="tacgia">
+                <div class="anhnho">
+                  <img src="anhslide.webp" alt="" height="45" />
+                </div>
+                <div>
+                  <div class="name">
+                    <a href="#" class="mod-a">Sergy Campbell</a>
+                  </div>
+                  <div class="job">
+                    <a href="#" class="mod-b">CEO and founder</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="post col-4">
+            <div class="post-img mb-20">
+              <img src="anhpost6.webp" alt="" width="100%" height="100%" />
+            </div>
+            <div class="post-content">
+              <p class="mb-20">
+                <a href="#" class="mod-a">Business</a>,<a href="#" class="mod-a"
+                  >Travel</a
+                >
+                - July 2, 2020
+              </p>
+              <h2 class="mb-20">
+                <a href="#" class="post-title">
+                  Your most unhappy customers are your greatest source of
+                  learning.</a
+                >
+              </h2>
+              <p class="mb-20">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="tacgia">
+                <div class="anhnho">
+                  <img src="anhslide.webp" alt="" height="45" />
+                </div>
+                <div>
+                  <div class="name">
+                    <a href="#" class="mod-a">Sergy Campbell</a>
+                  </div>
+                  <div class="job">
+                    <a href="#" class="mod-b">CEO and founder</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="trending-section2 row col-12 wrap">
+          <div class="section-title col-12">Most Popular Posts</div>
+          <div class="row d-block">
+            <div class="trending-topic col-12 mySlide2">
+              <div class="trending-img col-8 mb-20">
+                <img src="anhpost1.webp" alt="" width="100%" />
+              </div>
+              <div class="post-content col-8">
+                <p class="mb-20">
+                  <a href="#" class="mod-a">Business</a>,<a
+                    href="#"
+                    class="mod-a"
+                    >Travel</a
+                  >
+                  - July 2, 2020
+                </p>
+                <h2 class="mb-20">
+                  <a href="#" class="post-title">
+                    Your most unhappy customers are your greatest source of
+                    learning.</a
+                  >
+                </h2>
+                <p class="mb-20">
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <div class="tacgia">
+                  <div class="anhnho">
+                    <img src="anhslide.webp" alt="" height="45" />
+                  </div>
+                  <div>
+                    <div class="name">
+                      <a href="#" class="mod-a">Sergy Campbell</a>
+                    </div>
+                    <div class="job">
+                      <a href="#" class="mod-b">CEO and founder</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="trending-topic col-8 mySlide2">
+              <div class="trending-img col-4 mb-20">
+                <img src="anhpost2.webp" alt="" width="100%" />
+              </div>
+              <div class="post-content col-8">
+                <p class="mb-20">
+                  <a href="#" class="mod-a">Business</a>,<a
+                    href="#"
+                    class="mod-a"
+                    >Travel</a
+                  >
+                  - July 2, 2020
+                </p>
+                <h2 class="mb-20">
+                  <a href="#" class="post-title">
+                    Your most unhappy customers are your greatest source of
+                    learning.</a
+                  >
+                </h2>
+                <p class="mb-20">
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <div class="tacgia">
+                  <div class="anhnho">
+                    <img src="anhslide.webp" alt="" height="45" />
+                  </div>
+                  <div>
+                    <div class="name">
+                      <a href="#" class="mod-a">Sergy Campbell</a>
+                    </div>
+                    <div class="job">
+                      <a href="#" class="mod-b">CEO and founder</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="trending-topic col-8 mySlide2">
+              <div class="trending-img col-4 mb-20">
+                <img src="anhpost4.webp" alt="" width="100%" />
+              </div>
+              <div class="post-content col-8">
+                <p class="mb-20">
+                  <a href="#" class="mod-a">Business</a>,<a
+                    href="#"
+                    class="mod-a"
+                    >Travel</a
+                  >
+                  - July 2, 2020
+                </p>
+                <h2 class="mb-20">
+                  <a href="#" class="post-title">
+                    Your most unhappy customers are your greatest source of
+                    learning.</a
+                  >
+                </h2>
+                <p class="mb-20">
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <div class="tacgia">
+                  <div class="anhnho">
+                    <img src="anhslide.webp" alt="" height="45" />
+                  </div>
+                  <div>
+                    <div class="name">
+                      <a href="#" class="mod-a">Sergy Campbell</a>
+                    </div>
+                    <div class="job">
+                      <a href="#" class="mod-b">CEO and founder</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="trending-topic col-8 mySlide2">
+              <div class="trending-img col-4 mb-20">
+                <img src="anhpost5.webp" alt="" width="100%" />
+              </div>
+              <div class="post-content col-8">
+                <p class="mb-20">
+                  <a href="#" class="mod-a">Business</a>,<a
+                    href="#"
+                    class="mod-a"
+                    >Travel</a
+                  >
+                  - July 2, 2020
+                </p>
+                <h2 class="mb-20">
+                  <a href="#" class="post-title">
+                    Your most unhappy customers are your greatest source of
+                    learning.</a
+                  >
+                </h2>
+                <p class="mb-20">
+                  Far far away, behind the word mountains, far from the
+                  countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <div class="tacgia">
+                  <div class="anhnho">
+                    <img src="anhslide.webp" alt="" height="45" />
+                  </div>
+                  <div>
+                    <div class="name">
+                      <a href="#" class="mod-a">Sergy Campbell</a>
+                    </div>
+                    <div class="job">
+                      <a href="#" class="mod-b">CEO and founder</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="text-align: center" class="mb-50">
+          <span class="dot2" onclick="currentSlide(1)"></span>
+          <span class="dot2" onclick="currentSlide(2)"></span>
+          <span class="dot2" onclick="currentSlide(3)"></span>
+          <span class="dot2" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
